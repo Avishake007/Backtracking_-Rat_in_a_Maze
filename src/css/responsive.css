@@ -1,0 +1,17 @@
+@media only screen and (max-width:750px){
+    .secondpart{
+        width:100%;
+    }
+    .innercontain1{
+        width:100%;
+    }
+    .innercontain2{
+        display: none;
+    }
+    .coder2{
+        display: none;
+    }
+    .coordInputs{
+        width:100%;
+    }
+}

@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.container{
+    /* overflow-x: hidden; */
+    background: black;
+    height: 95%;
+    /* width: 100%; */
+    color: lightgreen;
+    display: flex;
+    padding: 20px;
+        /* justify-content: center;
+    align-items: center; */
+    font-size: 5vw;
+}
+.inner_container{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    background: black;
+    /* height: 100vh; */
+    width: 100%;
+}
+/* .innercontain2{
+    width: 50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+} */
+.innercontain1{
+    width:100%;
+    height:100%;
+}
+.header{
+    width: 100%;
+/* height: 44px; */
+
+font-family: Autour One;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+text-transform: uppercase;
+
+color: #45D2FF;
+
+/* border: 1px solid #052836; */
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.underline{
+    width:50%;
+    border-top: 4px solid;
+}
+.definition p{
+    width: 100%;
+/* height: 29px; */
+
+font-family: Averia Gruesa Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #45D2FF;
+}
+.definition .define{
+    width: 100%;
+/* height: 54px; */
+
+font-family: Aubrey;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 25px;
+
+color: #E2DADA;
+}
+.example p{
+    width: 100%;
+/* height: 25px; */
+
+font-family: Averia Serif Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #34CDEF;
+}
+.problem p{
+    width: 666px;
+/* height: 138px; */
+
+font-family: Atma;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+
+color: #B334E0;
+}
+.problem p span{
+    color: #37DA48;
+}
+.statement p{
+    width: 666px;
+/* height: 138px; */
+
+font-family: Atma;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+
+color: #9F2DD5;
+}
+.statement p:nth-child(2),.steps p{
+    width: 100%;
+    font-family: Asul;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 1.6;
+
+color: #EB896A;
+}
+.steps span{
+    color: #5ab672;
+    font-size: 9px;
+}
+.steps p:nth-child(1){
+    font-family: Atma;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+/* line-height: 29px; */
+
+color: #9F2DD5;
+}
+svg{
+    width: 100%;
+    height: 40%;
+}
+#left-hand,#right-hand{
+    transform-origin: initial;
+  animation: lefthand 2s infinite;
+}
+@keyframes lefthand{
+    /* 0% {transform: rotate(-30deg);} */
+    25%{transform: rotate(2deg);}
+    50%{transform: rotate(0deg);}
+    75%{transform: rotate(2deg);}
+    100%{transform: rotate(0deg);}
+    /* 50%{transform: rotate();} */
+  }
+.square:nth-child(even){
+    animation: square 2s infinite;
+}
+@keyframes square{
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+    opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.btn{
+    background: #6F49DC;
+    height: 7vh;
+    width: 50%;
+    margin-top: 14px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    border-radius: 11px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.coordInputs p:nth-child(1){
+    font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+/* identical to box height */
+
+text-align: center;
+
+color: #ED673C;
+
+}
+.coordInputs p:nth-child(2){
+    font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+
+color: #2DF3D0;
+
+}
